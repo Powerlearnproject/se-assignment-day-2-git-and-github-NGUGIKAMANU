@@ -186,7 +186,7 @@ Typical Steps in Creating and Merging a Pull Request
 1. Create a New Branch for Changes; (git checkout -b feature-branch) Creates and switches to a new branch to work on your changes separately.
 2. Make Changes; (git add .) Add your edits.
 3. Commit; (git commit -m "Added feature X") commit the changes.
-4. 
+4.  
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
