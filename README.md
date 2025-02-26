@@ -109,6 +109,7 @@ II) Costs extra if you’re on a free plan and want more private repositories.
 In Collaborative Projects
 
 Public: Awesome for group assignments where you want feedback from everyone—like sharing a cool app idea with the whole class or open-sourcing a tool for Kenyan developers. Downside is you get to watch who is forking or adding weird commits.
+
 Private: Best for tight-knit teams, like working on a startup app with your crew—keeps it secure and focused, but you miss out on wider input unless you invite more manually.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
@@ -144,10 +145,10 @@ Branching in Git allows developers to create separate lines of development withi
 
 Importance of Branching in Collaborative Development
 
-I) Enables Parallel Development – Multiple developers can work on different features without conflicts.
-II) Prevents Code Disruptions – Changes in a branch do not affect the main (main or master) branch.
-III) Facilitates Code Reviews – Pull requests (PRs) allow team members to review code before merging.
-IV) Enhances Version Control – Work can be tested and refined before being merged into the main project.
+I) Enables Parallel Development; Multiple developers can work on different features without conflicts.
+II) Prevents Code Disruptions; Changes in a branch do not affect the main (main or master) branch.
+III) Facilitates Code Reviews; Pull requests (PRs) allow team members to review code before merging.
+IV) Enhances Version Control; Work can be tested and refined before being merged into the main project.
 
 Process of Creating, Using, and Merging Branches
 
@@ -182,7 +183,10 @@ V) Safe Merging – Ensures that only approved and tested code is added to the m
 
 Typical Steps in Creating and Merging a Pull Request
 
-1. Create a New Branch for Changes; () 
+1. Create a New Branch for Changes; (git checkout -b feature-branch) Creates and switches to a new branch to work on your changes separately.
+2. Make Changes; (git add .) Add your edits.
+3. Commit; (git commit -m "Added feature X") commit the changes.
+4. 
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
